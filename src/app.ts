@@ -5,7 +5,7 @@ import config from "./config";
 
 const app: Application = express();
 
-//must have middle ware
+//must have middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
